@@ -24,10 +24,7 @@
         
     } failure:^(NSError *requestError) {
         
-    } progress:^(NSProgress *progress) {
-        
     }];
-    
 }
 
 - (void)didReceiveMemoryWarning {

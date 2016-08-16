@@ -29,7 +29,6 @@
                    params:(NSDictionary *)params
                   success:(CCReuqestSuccessBlock)successBlock
                   failure:(CCReuqestFailureBlock)failureBlock
-                 progress:(CCProgressBlock)progress
 {
     [[CCNetWorkHandler shardInstance]requestUrl:url requestType:CCGetRequest params:params success:successBlock failure:failureBlock];
 }
@@ -39,7 +38,6 @@
                     params:(NSDictionary *)params
                    success:(CCReuqestSuccessBlock)successBlock
                    failure:(CCReuqestFailureBlock)failureBlock
-                  progress:(CCProgressBlock)progress
 {
     [[CCNetWorkHandler shardInstance]requestUrl:url requestType:CCPostRequest params:params success:successBlock failure:failureBlock];
 }

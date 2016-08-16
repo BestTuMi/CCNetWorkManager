@@ -16,12 +16,10 @@
 + (void)GETRequestWithUrl:(NSString *)url
                    params:(NSDictionary *)params
                   success:(CCReuqestSuccessBlock)successBlock
-                  failure:(CCReuqestFailureBlock)failureBlock
-                 progress:(CCProgressBlock)progress;
+                  failure:(CCReuqestFailureBlock)failureBlock;
 
 + (void)POSTRequestWithUrl:(NSString *)url
                    params:(NSDictionary *)params
                   success:(CCReuqestSuccessBlock)successBlock
-                  failure:(CCReuqestFailureBlock)failureBlock
-                 progress:(CCProgressBlock)progress;
+                   failure:(CCReuqestFailureBlock)failureBlock;
 @end
