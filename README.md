@@ -3,7 +3,7 @@
 
 Get 
 ---
-   '[CCNetWorkManager GETRequestWithUrl:@"" params:@{} success:^(NSDictionary *responseData) {
+   '[CCNetWorkManager GETRequestWithUrl:url params:params success:^(NSDictionary *responseData) {
         
     } failure:^(NSError *requestError) {
         
