@@ -25,6 +25,22 @@
     } failure:^(NSError *requestError) {
         
     }];
+    
+    [CCNetWorkManager POSTRequestWithUrl:@"" params:@{} success:^(NSDictionary *responseData) {
+        
+    } failure:^(NSError *requestError) {
+        
+    }];
+    
+    //uploadModel 构造上传文件所需模型
+    [CCNetWorkManager UpLoadFileWithUrl:@"" params:@{} upLoadModel:nil progressBlock:^(NSProgress *progress) {
+        
+    } successBlock:^(NSDictionary *responseData) {
+        
+    } failureBlock:^(NSError *requestError) {
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

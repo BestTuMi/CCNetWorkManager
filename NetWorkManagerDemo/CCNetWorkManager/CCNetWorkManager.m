@@ -7,10 +7,6 @@
 //
 
 #import "CCNetWorkManager.h"
-#import "CCNetWorkHandler.h"
-#import "CCNetWorkDefine.h"
-#import "AFNetworking.h"
-#import "CCUploadModel.h"
 
 @implementation CCNetWorkManager
 
@@ -45,10 +41,11 @@
 //Upload
 + (void)UpLoadFileWithUrl:(NSString *)url
                    params:(NSDictionary *)params
+              upLoadModel:(CCUploadModel *)upLoadModel
             progressBlock:(CCProgressBlock)progressBlock
              successBlock:(CCReuqestSuccessBlock)successBlock
              failureBlock:(CCReuqestFailureBlock)failureBlock
-              upLoadModel:(CCUploadModel *)upLoadModel
+
 {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     [manager POST:url parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {

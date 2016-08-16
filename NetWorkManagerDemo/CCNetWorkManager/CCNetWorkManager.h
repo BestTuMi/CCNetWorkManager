@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "CCNetWorkDefine.h"
+#import "AFNetworking.h"
+#import "CCUploadModel.h"
+#import "CCNetWorkHandler.h"
 
 @interface CCNetWorkManager : NSObject
 
@@ -22,4 +25,11 @@
                    params:(NSDictionary *)params
                   success:(CCReuqestSuccessBlock)successBlock
                    failure:(CCReuqestFailureBlock)failureBlock;
+
++ (void)UpLoadFileWithUrl:(NSString *)url
+                   params:(NSDictionary *)params
+              upLoadModel:(CCUploadModel *)upLoadModel
+            progressBlock:(CCProgressBlock)progressBlock
+             successBlock:(CCReuqestSuccessBlock)successBlock
+             failureBlock:(CCReuqestFailureBlock)failureBlock;
 @end
