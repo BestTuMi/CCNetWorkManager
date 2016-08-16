@@ -2,8 +2,12 @@
 根据项目需求对AFN的一次简单封装
 
 Get 
-```java  
+```objective-c  
   
-//这里放你的代码
+    [CCNetWorkManager GETRequestWithUrl:@"" params:@{} success:^(NSDictionary *responseData) {
+        
+    } failure:^(NSError *requestError) {
+        
+    }];
   
 ```
