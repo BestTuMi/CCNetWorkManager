@@ -1,5 +1,5 @@
 # CCNetWorkManager
-根据项目需求对AFN的一次简单封装，如果你觉得用起来不错，欢迎star
+根据项目需求对AFN的一次简单封装，如果你觉得用起来不错，欢迎Star
 
 Clone CCNetWorkManager并导入你的项目
 ---
