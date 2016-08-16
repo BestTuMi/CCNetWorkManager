@@ -11,3 +11,28 @@ Get
     }];
   
 ```
+
+Post
+```objective-c  
+  
+    [CCNetWorkManager POSTRequestWithUrl:@"" params:@{} success:^(NSDictionary *responseData) {
+        
+    } failure:^(NSError *requestError) {
+        
+    }];
+  
+```
+
+Upload
+```objective-c  
+  
+    //uploadModel 构造上传文件所需模型
+    [CCNetWorkManager UpLoadFileWithUrl:@"" params:@{} upLoadModel:nil progressBlock:^(NSProgress *progress) {
+        
+    } successBlock:^(NSDictionary *responseData) {
+        
+    } failureBlock:^(NSError *requestError) {
+        
+    }];
+  
+```
