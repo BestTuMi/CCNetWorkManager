@@ -2,6 +2,7 @@
 根据项目需求对AFN的一次简单封装，如果你觉得用起来不错，欢迎star
 
 Clone CCNetWorkManager并导入你的项目
+---
 ```objective-c  
 #import "CCNetWorkManager.h"
 ```
