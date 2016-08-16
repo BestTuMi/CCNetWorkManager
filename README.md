@@ -8,6 +8,7 @@ Clone CCNetWorkManager并导入你的项目
 ```
 
 Get 
+---
 ```objective-c  
   
     [CCNetWorkManager GETRequestWithUrl:@"" params:@{} success:^(NSDictionary *responseData) {
@@ -19,6 +20,7 @@ Get
 ```
 
 Post
+---
 ```objective-c  
   
     [CCNetWorkManager POSTRequestWithUrl:@"" params:@{} success:^(NSDictionary *responseData) {
@@ -30,6 +32,7 @@ Post
 ```
 
 Upload
+---
 ```objective-c  
   
     //uploadModel 构造上传文件所需模型
